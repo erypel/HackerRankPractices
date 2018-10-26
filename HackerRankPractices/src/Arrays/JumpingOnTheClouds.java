@@ -20,7 +20,7 @@ public class JumpingOnTheClouds
 		{
 			if(i + 2 < c.length && c[i + 2] == 0)
 			{
-				i += 2; // because the for-loop will add one already;
+				i += 2; 
 				jumps++;
 			}
 			else
