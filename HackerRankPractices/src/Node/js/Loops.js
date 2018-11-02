@@ -42,14 +42,12 @@ function vowelsAndConsonants(s) {
         i++;
     }
     
-    i = 0;
-    while(i < s.length)
+    for(var j = 0; j < s.length; j++)
     {
-       if(!vowels.includes(s.charAt(i)))
+       if(!vowels.includes(s.charAt(j)))
            {
-               console.log(s.charAt(i));
+               console.log(s.charAt(j));
            }
-        i++;
     }
 }
 
